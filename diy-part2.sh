@@ -18,3 +18,5 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+# 拉取联发科 MTK 闭源无线驱动与配套 LuCI 控制面板
+git clone --depth 1 https://github.com/messense/openwrt-mtk-wifi.git package/mtk-wifi
